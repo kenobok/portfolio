@@ -7,7 +7,7 @@ const Header = () => {
         <header className="header">
             <a className="header--logo">
                 {/* <img src={ko} alt="OK" style={{width:'35px'}}/> */}
-                <p>Kenneth Obok</p>
+                <p>Kenneth Obok</p> <i className="fas fa-caret-right mx-2" style={{ marginTop:'3px' }}></i> <small id="cur_tab" style={{ marginTop:'3px' }}>Home</small>
             </a>
             <div className="header--nav-toggle">
                 <span></span>

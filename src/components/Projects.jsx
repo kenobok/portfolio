@@ -19,12 +19,11 @@ const Projects = () => {
                       </div>
                       <h3 className="slider--item-title">Skilits</h3>
                       <p className="slider--item-description">
-                        This portal connects skilled professionals with employers, 
-                        offering an intuitive interface for job listings, search 
-                        filters, and user profiles.
-                        Built with HTML, CSS, JavaScript, 
-                        React, Bootstrap, DjangoRestFramework, PostgreSQL, and AWS, it 
-                        ensures a seamless and scalable user experience.
+                        This web app connects skilled professionals with employers.
+                        It offers an intuitive interface for skilled professionals 
+                        listing and skills learning..
+                        Built with HTML, CSS, JavaScript, React, Bootstrap, Django Rest Framework, 
+                        PostgreSQL, and AWS, it ensures a seamless and scalable user experience.
                       </p>
                     </a>
                   </li>
@@ -33,7 +32,7 @@ const Projects = () => {
                       <div className="slider--item-image">
                         <img src={ ccc } alt="Crystal Career Centre" />
                       </div>
-                      <h3 className="slider--item-title">Crystal Career Centre</h3>
+                      <h3 className="slider--item-title">Crystal Career<br/>Centre</h3>
                       <p className="slider--item-description">
                         Crystal Career Centre provides education and training 
                         support across London and the UK, offering resources 
@@ -69,7 +68,7 @@ const Projects = () => {
                         focused on charity, supporting communities and 
                         driving positive social change. The website helps raise 
                         awareness and donations for various causes. I implemented 
-                        donation forms and event management features. 
+                        donation forms and events features. 
                         Built using HTML, CSS, JavaScript and Git for version control.
                       </p>
                     </a>
@@ -81,10 +80,10 @@ const Projects = () => {
                       </div>
                       <h3 className="slider--item-title">Awaays</h3>
                       <p className="slider--item-description">
-                        Awaays website enables users to browse products, add them to the cart, 
-                        and make purchases. It also comprises of give away activity on the site
+                        Awaays website enables users to buy, sell and swap products. 
+                        It also comprises of give away section on the site
                         were users can give away or recieve items. Technologies used include 
-                        HTML, CSS, Bootstrap, TailwindCSS, JavaScript, React, DjangoRestFramework, 
+                        HTML, CSS, Bootstrap, TailwindCSS, JavaScript, React, Django Rest Framework, 
                         Python, PostgreSQL, AWS and Git for version control.
                       </p>
                     </a>

@@ -4,7 +4,7 @@ const SideNav = () => {
   return (
     <nav className="l-side-nav">
       <ul className="side-nav">
-        <li className="is-active"><span>About</span></li>
+        <li className="is-active"><span>Home</span></li>
         <li><span>Skills</span></li>
         <li><span>Projects</span></li>
         <li><span>Resume</span></li>
