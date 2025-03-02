@@ -73,7 +73,7 @@ const Projects = () => {
                       </p>
                     </a>
                   </li>
-                  <li className="slider--item">
+                  {/* <li className="slider--item">
                     <a href="" target="_blank">
                       <div className="slider--item-image">
                         <img src={ skilits } alt="awaays" />
@@ -87,7 +87,7 @@ const Projects = () => {
                         Python, PostgreSQL, AWS and Git for version control.
                       </p>
                     </a>
-                  </li>
+                  </li> */}
                   <li className="slider--item">
                     <a href="https://cccdestinationofpeaceparish.co.uk/" target="_blank">
                       <div className="slider--item-image">
