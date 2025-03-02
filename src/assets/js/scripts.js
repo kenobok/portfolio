@@ -2,6 +2,26 @@ import $ from 'jquery';
 import Hammer from 'hammerjs';
 
 $( document ).ready(function() {
+    const text = `
+            Hi, I’m a passionate Full-Stack Web Developer. I build scalable 
+            and dynamic web applications using the latest technologies to solve 
+            real-world problems.
+        `;
+        // Whether it's the front-end, back-end, or everything in between, I turn ideas into interactive 
+        // and user-friendly digital experiences.
+    const typedTextElement = document.getElementById("typedText");
+    let index = 0;
+
+    function typeText() {
+        if (index < text.length) {
+            typedTextElement.innerHTML += text.charAt(index);
+            index++;
+            setTimeout(typeText, 100);
+        }
+    }
+
+    typeText();
+
     $('.side-nav li, .outer-nav li').click(function(){
       if (!($(this).hasClass('is-active'))) {
         var $this = $(this),

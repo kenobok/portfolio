@@ -95,11 +95,10 @@ const Projects = () => {
                       </div>
                       <h3 className="slider--item-title">Destination of Peace</h3>
                       <p className="slider--item-description">
-                        Destination of Peace Parish is a Celestial Church of Christ in Birmingham, 
-                        dedicated to fostering peace and spiritual growth. I built the church website 
-                        to facilitate community engagement, providing event schedules, 
-                        donation options, and sermon videos. The project utilizes HTML, CSS, Javascript
-                        for a user-friendly interface.
+                        Destination of Peace Parish is a Celestial Church of Christ in Birmingham, UK. 
+                        The church website facilitate community engagement, providing event schedules, 
+                        donation options, and sermon videos. The project utilizes HTML, CSS, Javascript, Django,
+                        PostgreSQL, AWS and Git for a user-friendly and interactive interface.
                       </p>
                     </a>
                   </li>

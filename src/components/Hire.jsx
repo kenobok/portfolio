@@ -20,15 +20,15 @@ const Hire = () => {
                     </div>
                     <p>Have something else in mind? Let's talk about your custom needs!</p>
                     <div className="hire-contact">
-                        <a href="tel:+2348033088179" style={{ color:'#2196F3' }}>
-                            <i className="fas fa-phone fs-4"></i>
+                        <a href="tel:+2348033088179" target="_blank">
+                            <i className="fas fa-phone fs-5"></i>
                             <small>Call Me</small>
                         </a>
-                        <a href="https://wa.me/2348033088179" style={{ color:'#25D366' }}>
+                        <a href="https://wa.me/2348033088179" target="_blank">
                             <i className="fab fa-whatsapp fs-4"></i>
                             <small>Whatsapp</small>
                         </a>
-                        <a href="mailto:ken.obok.ula@gmail.com">
+                        <a href="mailto:ken.obok.ula@gmail.com" target="_blank">
                             <i className="fas fa-envelope fs-4"></i>
                             <small>Email</small>
                         </a>
