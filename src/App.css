@@ -1223,12 +1223,12 @@
     }
     .resume_img {
         transform: translateX(0%);
-        transform: translateY(-10%);
+        transform: translateY(-5%);
         width: 300px;
         height: 70%;
     }
     .resume_download {
-        top: 75%;
+        top: 78%;
         left: 50%;
         transform: translateX(-50%);
         width: 100%;
