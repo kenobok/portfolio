@@ -15,17 +15,14 @@ const Home = () => {
                         <div>
                             <h3>ABOUT ME</h3>
                             <p>
-                                With over 3 years of experience in crafting innovative web applications, 
-                                I’ve honed a versatile skill set that allows me to seamlessly contribute 
-                                to every aspect of a web project. My expertise spans front-end technologies 
-                                such as HTML, CSS, and JavaScript (React.js), as well as back-end development 
-                                using Python (Django, Django Rest Framework), and efficient database management 
-                                with SQL (MySQL, PostgreSQL).<br/><br/>
+                                With over 3 years of experience in web development, I have developed a well-rounded skill 
+                                set that covers both front-end and back-end. Proficient in technologies like 
+                                HTML, CSS, JavaScript (React.js), Python (Django, Django Rest Framework), SQL (MySQL, PostgreSQL),
+                                AWS, Git and Github.<br/><br/>
 
-                                I am committed to writing clean, maintainable code and prioritizing the user experience. 
-                                I aim at building intuitive, responsive websites that not only meet user needs but also 
-                                deliver tangible results. With a strong foundation in both front-end and back-end development, 
-                                I focus on creating powerful, scalable digital experiences that drive success and add value.
+                                I focus on writing clean, maintainable code while prioritizing user experience. 
+                                My goal is to build intuitive, responsive websites that drive results and create 
+                                scalable digital solutions.
                             </p>
                         </div>
                     </div>
