@@ -3,12 +3,10 @@ import Hammer from 'hammerjs';
 
 $( document ).ready(function() {
     const text = `
-            Hi, I’m a passionate Full-Stack Web Developer. I build scalable 
-            and dynamic web applications using the latest technologies to solve 
-            real-world problems.
-        `;
-        // Whether it's the front-end, back-end, or everything in between, I turn ideas into interactive 
-        // and user-friendly digital experiences.
+        Hi, I’m a passionate Full-Stack Web Developer. I build scalable 
+        and dynamic web applications using the latest technologies to solve 
+        real-world problems.
+    `;
     const typedTextElement = document.getElementById("typedText");
     let index = 0;
 
