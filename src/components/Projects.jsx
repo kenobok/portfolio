@@ -2,6 +2,7 @@ import React from 'react';
 import skilits from '../assets/images/skilits.png'
 import ccc from '../assets/images/ccc.png'
 import anchorinv from '../assets/images/anchorinv.png'
+import haqq from '../assets/images/haqq.png'
 import elitesdwell from '../assets/images/elitesdwell.png'
 import tdfoundation from '../assets/images/tdfoundation.png'
 import dop from '../assets/images/dop.png'
@@ -87,6 +88,21 @@ const Projects = () => {
                         awareness and donations for various causes. I implemented 
                         donation forms and events features. 
                         Built using HTML, CSS, JavaScript and Git for version control.
+                      </p>
+                    </a>
+                  </li>
+                  <li className="slider--item">
+                    <a href="https://haqqprefab.com/" target="_blank">
+                      <div className="slider--item-image">
+                        <img src={ haqq } alt="Haqqprefab" />
+                      </div>
+                      <h3 className="slider--item-title">Haqqprefab</h3>
+                      <p className="slider--item-description">
+                        I contributed to the development of this prefabrication 
+                        construction website, designed to streamline project management 
+                        and showcase innovative building solutions. The platform features 
+                        a user-friendly interface with project timelines, providing clients with 
+                        a seamless experience in planning and executing construction projects.
                       </p>
                     </a>
                   </li>
