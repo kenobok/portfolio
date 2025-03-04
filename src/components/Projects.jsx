@@ -76,6 +76,21 @@ const Projects = () => {
                     </a>
                   </li>
                   <li className="slider--item">
+                    <a href="https://haqqprefab.com/" target="_blank">
+                      <div className="slider--item-image">
+                        <img src={ haqq } alt="Haqqprefab" />
+                      </div>
+                      <h3 className="slider--item-title">Haqqprefab</h3>
+                      <p className="slider--item-description">
+                        I contributed to the development of this prefabrication 
+                        construction website, designed to streamline project management 
+                        and showcase innovative building solutions. The platform features 
+                        a user-friendly interface with project timelines, providing clients with 
+                        a seamless experience in planning and executing construction projects.
+                      </p>
+                    </a>
+                  </li>
+                  <li className="slider--item">
                     <a href="https://tdfoundation-project.onrender.com" target="_blank">
                       <div className="slider--item-image">
                         <img src={ tdfoundation } alt="TDFoundation" />
@@ -88,21 +103,6 @@ const Projects = () => {
                         awareness and donations for various causes. I implemented 
                         donation forms and events features. 
                         Built using HTML, CSS, JavaScript and Git for version control.
-                      </p>
-                    </a>
-                  </li>
-                  <li className="slider--item">
-                    <a href="https://haqqprefab.com/" target="_blank">
-                      <div className="slider--item-image">
-                        <img src={ haqq } alt="Haqqprefab" />
-                      </div>
-                      <h3 className="slider--item-title">Haqqprefab</h3>
-                      <p className="slider--item-description">
-                        I contributed to the development of this prefabrication 
-                        construction website, designed to streamline project management 
-                        and showcase innovative building solutions. The platform features 
-                        a user-friendly interface with project timelines, providing clients with 
-                        a seamless experience in planning and executing construction projects.
                       </p>
                     </a>
                   </li>
