@@ -1,5 +1,6 @@
 import React from 'react';
 import skilits from '../assets/images/skilits.png'
+import awaays from '../assets/images/awaays.png'
 import ccc from '../assets/images/ccc.png'
 import anchorinv from '../assets/images/anchorinv.png'
 import haqq from '../assets/images/haqq.png'
@@ -17,7 +18,7 @@ const Projects = () => {
                   <li className="slider--item slider--item-left">
                     <a href="https://skilits-project.onrender.com" target="_blank">
                       <div className="slider--item-image">
-                        <img src={ skilits } alt="Skilits" />
+                            <img src={ awaays } alt="Awaays" />
                       </div>
                       <h3 className="slider--item-title">Skilits</h3>
                       <p className="slider--item-description">
@@ -30,6 +31,21 @@ const Projects = () => {
                     </a>
                   </li>
                   <li className="slider--item slider--item-center">
+                    <a href="https://www.awaays.com" target="_blank">
+                      <div className="slider--item-image">
+                        <img src={ skilits } alt="awaays" />
+                      </div>
+                      <h3 className="slider--item-title">Awaays</h3>
+                      <p className="slider--item-description">
+                        Awaays website enables users to give or receive items for free. 
+                        It also comprises of real time chat, forums and groups
+                        were users can discuss various topics and connect. Technologies used include 
+                        HTML, CSS, Bootstrap, TailwindCSS, JavaScript, React, Django Rest Framework, 
+                        Python, PostgreSQL, AWS and Git for version control.
+                      </p>
+                    </a>
+                  </li>
+                  <li className="slider--item slider--item-right">
                     <a href="https://www.crystalcareercentre.com" target="_blank">
                       <div className="slider--item-image">
                         <img src={ ccc } alt="Crystal Career Centre" />
@@ -44,7 +60,7 @@ const Projects = () => {
                       </p>
                     </a>
                   </li>
-                  <li className="slider--item slider--item-right">
+{/*                   <li className="slider--item slider--item-right">
                     <a href="https://anchorinv-project.onrender.com" target="_blank">
                       <div className="slider--item-image">
                         <img src={ anchorinv } alt="AncorInv" />
@@ -59,7 +75,7 @@ const Projects = () => {
                         informed decisions on the go.
                       </p>
                     </a>
-                  </li>
+                  </li> */}
                   <li className="slider--item">
                     <a href="https://elitesdwell-project.onrender.com" target="_blank">
                       <div className="slider--item-image">
@@ -106,21 +122,6 @@ const Projects = () => {
                       </p>
                     </a>
                   </li>
-                  {/* <li className="slider--item">
-                    <a href="" target="_blank">
-                      <div className="slider--item-image">
-                        <img src={ skilits } alt="awaays" />
-                      </div>
-                      <h3 className="slider--item-title">Awaays</h3>
-                      <p className="slider--item-description">
-                        Awaays website enables users to buy, sell and swap products. 
-                        It also comprises of give away section on the site
-                        were users can give away or recieve items. Technologies used include 
-                        HTML, CSS, Bootstrap, TailwindCSS, JavaScript, React, Django Rest Framework, 
-                        Python, PostgreSQL, AWS and Git for version control.
-                      </p>
-                    </a>
-                  </li> */}
                   <li className="slider--item">
                     <a href="https://cccdestinationofpeaceparish.co.uk/" target="_blank">
                       <div className="slider--item-image">
