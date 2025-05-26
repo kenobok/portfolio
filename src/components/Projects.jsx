@@ -18,7 +18,7 @@ const Projects = () => {
                   <li className="slider--item slider--item-left">
                     <a href="https://skilits-project.onrender.com" target="_blank">
                       <div className="slider--item-image">
-                            <img src={ awaays } alt="Awaays" />
+                            <img src={ skilits } alt="Awaays" />
                       </div>
                       <h3 className="slider--item-title">Skilits</h3>
                       <p className="slider--item-description">
@@ -29,11 +29,11 @@ const Projects = () => {
                         PostgreSQL, and AWS, it ensures a seamless and scalable user experience.
                       </p>
                     </a>
-                  </li>
+                  </li>skilits
                   <li className="slider--item slider--item-center">
                     <a href="https://www.awaays.com" target="_blank">
                       <div className="slider--item-image">
-                        <img src={ skilits } alt="awaays" />
+                        <img src={ awaays } alt="awaays" />
                       </div>
                       <h3 className="slider--item-title">Awaays</h3>
                       <p className="slider--item-description">
