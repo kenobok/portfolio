@@ -29,7 +29,7 @@ const Projects = () => {
                         PostgreSQL, and AWS, it ensures a seamless and scalable user experience.
                       </p>
                     </a>
-                  </li>skilits
+                  </li>
                   <li className="slider--item slider--item-center">
                     <a href="https://www.awaays.com" target="_blank">
                       <div className="slider--item-image">
@@ -60,22 +60,6 @@ const Projects = () => {
                       </p>
                     </a>
                   </li>
-{/*                   <li className="slider--item slider--item-right">
-                    <a href="https://anchorinv-project.onrender.com" target="_blank">
-                      <div className="slider--item-image">
-                        <img src={ anchorinv } alt="AncorInv" />
-                      </div>
-                      <h3 className="slider--item-title">AnchorInv</h3>
-                      <p className="slider--item-description">
-                        I developed this intuitive and user-friendly investment 
-                        website which provides market data, and simplify investment process. 
-                        The platform offers four different investment plans.
-                        It leverages responsive design to offer a seamless 
-                        experience across devices, ensuring investors can make 
-                        informed decisions on the go.
-                      </p>
-                    </a>
-                  </li> */}
                   <li className="slider--item">
                     <a href="https://elitesdwell-project.onrender.com" target="_blank">
                       <div className="slider--item-image">
