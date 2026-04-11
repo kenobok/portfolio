@@ -1,260 +1,616 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<title>Obok Kenneth | IT Support & Software Developer</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Obok Kenneth | Full-Stack Developer & IT Support Specialist</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-
-<!-- NAV -->
-<nav>
-  <div class="logo">OK</div>
-  <ul class="nav-links" id="navLinks">
-    <li><a href="#about">About</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#experience">Experience</a></li>
-    <li><a href="#courses">Courses</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-  <div class="hamburger" id="hamburger" onclick="toggleNav()">
-    <span></span><span></span><span></span>
-  </div>
-</nav>
-
-<!-- HERO -->
-<section id="hero">
-  <div class="hero-bg"></div>
-  <div class="grid-overlay"></div>
-  <div class="floating-orb orb1"></div>
-  <div class="floating-orb orb2"></div>
-  <div class="hero-inner">
-    <!-- <div class="badge">Available for Freelance Work</div> -->
-    <h1>Obok <span>Kenneth</span></h1>
-    <p class="hero-sub">IT Support Specialist & Software Developer crafting responsive web & mobile solutions and keeping systems running smoothly.</p>
-    <div class="btn-group">
-      <a href="#contact" class="btn btn-primary">Get In Touch</a>
-      <a href="#experience" class="btn btn-outline">View Experience</a>
+  <!-- NAV -->
+  <nav>
+    <div class="logo">OK</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact" class="nav-cta">Hire Me</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger" onclick="toggleNav()">
+      <span></span><span></span><span></span>
     </div>
-  </div>
-</section>
+  </nav>
 
-<!-- ABOUT -->
-<section id="about">
-  <div class="container">
-    <div class="about-grid">
-      <div class="about-text reveal">
-        <p class="section-label">Who I Am</p>
-        <h2 class="section-title">Motivated <span>IT Professional</span></h2>
-        <p>I'm a motivated IT Support Specialist and Software Developer with hands-on experience troubleshooting systems and building responsive web and mobile applications.</p>
-        <p>I thrive in fast-paced environments, quickly learning new tools and delivering efficient, reliable solutions — from diagnosing technical faults to developing full-stack applications.</p>
-        <ul class="info-list">
-          <li><span class="icon">📍</span> Kosofe, Lagos, Nigeria</li>
-          <li><span class="icon">📧</span> okenneth009@gmail.com</li>
-          <li><span class="icon">📞</span> +234 803 308 8179</li>
-          <li><span class="icon">🌐</span> <a href="https://kennethobok.onrender.com" style="color:var(--accent2)">kennethobok.onrender.com</a></li>
-          <li><span class="icon">🗣️</span> English</li>
-        </ul>
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-mesh"></div>
+    <div class="grid-lines"></div>
+    <div class="hero-inner">
+      <div class="badge">🟢 Open to Remote Roles</div>
+      <h1 class="hero-title">Obok <span>Kenneth</span></h1>
+      <p class="hero-role">
+        Full-Stack Developer &amp; IT Support Specialist
+      </p>
+      <p class="hero-sub">
+        7+ years delivering responsive web &amp; mobile applications and
+        robust IT infrastructure for clients across multiple industries.
+      </p>
+      <div class="btn-row">
+        <a href="#contact" class="btn btn-primary">✉ Get In Touch</a>
+        <a href="#projects" class="btn btn-outline">▶ View Projects</a>
+        <a href="#" class="btn btn-cv" onclick="downloadCV(event)">⬇ Download CV</a>
       </div>
-      <div class="reveal">
-        <div class="about-card">
+      <div class="scroll-hint">
+        <div class="scroll-line"></div>
+        <span>Scroll to explore</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p class="section-label">Who I Am</p>
+          <h2 class="section-title">
+            Full-Stack Developer &amp; <span>IT Specialist</span>
+          </h2>
+          <p>
+            Full-Stack Developer and IT Support Specialist with 7+ years of
+            experience designing, building, and maintaining responsive web and
+            mobile applications for clients across multiple industries.
+          </p>
+          <p>
+            Proficient in web development, mobile app development and cloud
+            technologies, with a strong foundation in IT infrastructure and
+            technical support. Proven ability to deliver reliable, scalable
+            solutions in fast-paced, fully remote environments.
+          </p>
+          <!-- <p>Actively seeking remote roles with international teams.</p> -->
+          <ul class="info-list">
+            <li>📍 Lagos, Nigeria (Open to Remote)</li>
+            <li>
+              📧
+              <a href="mailto:okenneth009@gmail.com">okenneth009@gmail.com</a>
+            </li>
+            <li>📞 +234 803 308 8179</li>
+            <li>
+              🌐
+              <a href="https://kennethobok.onrender.com" target="_blank">kennethobok.onrender.com</a>
+            </li>
+            <li>🗣️ English – Fluent</li>
+          </ul>
+        </div>
+        <div class="reveal">
           <div class="stats-grid">
-            <div class="stat"><div class="stat-num">7+</div><div class="stat-label">Years Experience</div></div>
-            <div class="stat"><div class="stat-num">4</div><div class="stat-label">Companies Served</div></div>
-            <div class="stat"><div class="stat-num">4</div><div class="stat-label">Courses</div></div>
-            <div class="stat"><div class="stat-num">500+</div><div class="stat-label">Problems Solved</div></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- SKILLS -->
-<section id="skills">
-  <div class="container">
-    <div class="section-header reveal">
-      <p class="section-label">What I Do</p>
-      <h2 class="section-title">Skills & <span>Expertise</span></h2>
-      <p class="section-desc">A blend of technical depth and people skills that enables me to deliver end-to-end solutions.</p>
-    </div>
-    <div class="skills-grid">
-      <div class="skill-card reveal"><div class="skill-icon">💻</div><div class="skill-name">Web & App Development</div><div class="skill-desc">Frontend & backend development of responsive, modern web and mobile applications using current frameworks and best practices.</div></div>
-      <div class="skill-card reveal"><div class="skill-icon">🔧</div><div class="skill-name">IT Support & Troubleshooting</div><div class="skill-desc">Hardware, software and network diagnostics — resolving issues efficiently to maintain system uptime and user productivity.</div></div>
-      <div class="skill-card reveal"><div class="skill-icon">☁️</div><div class="skill-name">Cloud Technologies</div><div class="skill-desc">Leveraging cloud platforms for scalable deployments, infrastructure management, and computing fundamentals.</div></div>
-      <div class="skill-card reveal"><div class="skill-icon">🏗️</div><div class="skill-name">System Architecture</div><div class="skill-desc">Designing robust, scalable system architectures aligned with business goals and technical requirements.</div></div>
-      <div class="skill-card reveal"><div class="skill-icon">🎨</div><div class="skill-name">Wireframing & Design Thinking</div><div class="skill-desc">Transforming ideas into user-centred designs through wireframes, prototypes, and iterative design thinking.</div></div>
-      <div class="skill-card reveal"><div class="skill-icon">📊</div><div class="skill-name">Agile Project Management</div><div class="skill-desc">Collaborative delivery using agile methodologies, stakeholder communication, and business analysis techniques.</div></div>
-    </div>
-  </div>
-</section>
-
-<!-- EXPERIENCE -->
-<section id="experience">
-  <div class="container">
-    <div class="section-header reveal">
-      <p class="section-label">Career Journey</p>
-      <h2 class="section-title">Work <span>Experience</span></h2>
-      <p class="section-desc">Over seven years across IT support and software development roles — delivering real impact at every step.</p>
-    </div>
-    <div class="timeline">
-
-      <div class="tl-item reveal">
-        <div class="tl-dot"></div>
-        <div class="tl-card">
-          <div class="tl-header">
-            <div>
-              <div class="tl-role">IT Support & Software Developer</div>
-              <div class="tl-company">Self-Employed (Freelance)</div>
+            <div class="stat">
+              <div class="stat-num">7+</div>
+              <div class="stat-label">Years Experience</div>
             </div>
-            <div class="tl-date">2025 – Present</div>
-          </div>
-          <ul class="tl-list">
-            <li>Provide IT support services including troubleshooting hardware, software, and network issues.</li>
-            <li>Develop and maintain responsive web and mobile applications for clients.</li>
-            <li>Diagnose and resolve technical problems to ensure system efficiency.</li>
-            <li>Perform system setup, maintenance, and user support.</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="tl-item reveal">
-        <div class="tl-dot"></div>
-        <div class="tl-card">
-          <div class="tl-header">
-            <div>
-              <div class="tl-role">Software Developer & Virtual Assistant</div>
-              <div class="tl-company">Awaays</div>
+            <div class="stat">
+              <div class="stat-num">4</div>
+              <div class="stat-label">Companies Served</div>
             </div>
-            <div class="tl-date">2023 – 2025</div>
-          </div>
-          <ul class="tl-list">
-            <li>Developed and maintained web and application solutions.</li>
-            <li>Provided virtual assistance including technical support and administrative tasks.</li>
-            <li>Managed digital tools and workflows to improve productivity.</li>
-            <li>Collaborated with team members to deliver efficient solutions.</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="tl-item reveal">
-        <div class="tl-dot"></div>
-        <div class="tl-card">
-          <div class="tl-header">
-            <div>
-              <div class="tl-role">Software Developer</div>
-              <div class="tl-company">Skilits</div>
+            <div class="stat">
+              <div class="stat-num">50+</div>
+              <div class="stat-label">Projects Delivered</div>
             </div>
-            <div class="tl-date">2021 – 2023</div>
-          </div>
-          <ul class="tl-list">
-            <li>Designed and developed web applications using modern technologies.</li>
-            <li>Implemented user-friendly interfaces and backend functionality.</li>
-            <li>Collaborated with team members to gather and implement requirements.</li>
-            <li>Tested and debugged applications to ensure optimal performance.</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="tl-item reveal">
-        <div class="tl-dot"></div>
-        <div class="tl-card">
-          <div class="tl-header">
-            <div>
-              <div class="tl-role">IT Support Specialist</div>
-              <div class="tl-company">China Civil Engineering Construction Company</div>
+            <div class="stat">
+              <div class="stat-num">~500+</div>
+              <div class="stat-label">Problems Solved</div>
             </div>
-            <div class="tl-date">2018 – 2020</div>
           </div>
-          <ul class="tl-list">
-            <li>Provided technical support for hardware, software, and network issues.</li>
-            <li>Installed, configured, and maintained computer systems.</li>
-            <li>Diagnosed and resolved technical problems efficiently.</li>
-            <li>Assisted users with system usage and troubleshooting.</li>
-          </ul>
+          <!-- Skills summary panels -->
+          <div style="display: flex; flex-direction: column; gap: 1rem">
+            <div class="skills-panel">
+              <div class="sp-title">Languages</div>
+              <div class="tag-group">
+                <span class="tag">JavaScript</span><span class="tag">Python</span><span class="tag">Dart</span><span
+                  class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">SQL</span>
+              </div>
+            </div>
+            <div class="skills-panel">
+              <div class="sp-title">Frameworks & Tools</div>
+              <div class="tag-group">
+                <span class="tag cyan">React.js</span><span class="tag cyan">Next.js</span><span
+                  class="tag cyan">Django</span><span class="tag cyan">Flutter</span>
+              </div>
+            </div>
+            <div class="skills-panel">
+              <div class="sp-title">Cloud & DevOps</div>
+              <div class="tag-group">
+                <span class="tag amber">AWS</span><span class="tag amber">GCP</span><span
+                  class="tag amber">Docker</span><span class="tag amber">Git</span><span class="tag amber">GitHub</span>
+              </div>
+            </div>
+            <div class="skills-panel">
+              <div class="sp-title">Databases & IT</div>
+              <div class="tag-group">
+                <span class="tag green">PostgreSQL</span><span class="tag green">MySQL</span><span
+                  class="tag green">Windows Server</span><span class="tag green">Active Directory</span><span
+                  class="tag green">Help Desk</span>
+              </div>
+            </div>
+          </div>
+          <div class="cv-download-wrap">
+            <a href="#" class="cv-download-btn" onclick="downloadCV(event)">⬇ Download Full CV (PDF)</a>
+          </div>
         </div>
       </div>
+    </div>
+  </section>
 
-    </div>
-  </div>
-</section>
-
-<!-- COURSES -->
-<section id="courses">
-  <div class="container">
-    <div class="section-header reveal">
-      <p class="section-label">Learning</p>
-      <h2 class="section-title">Courses & <span>Certifications</span></h2>
-      <p class="section-desc">Continuous learning through industry-recognised platforms.</p>
-    </div>
-    <div class="courses-grid">
-      <div class="course-card reveal"><div class="course-icon">🌐</div><div><div class="course-name">Web Development Bootcamp</div><div class="course-provider">Udemy</div></div></div>
-      <div class="course-card reveal"><div class="course-icon">💡</div><div><div class="course-name">Software Development</div><div class="course-provider">Udemy</div></div></div>
-      <div class="course-card reveal"><div class="course-icon">🛠️</div><div><div class="course-name">Google IT Support Professional</div><div class="course-provider">Coursera · Google</div></div></div>
-      <div class="course-card reveal"><div class="course-icon">☁️</div><div><div class="course-name">Cloud Computing Fundamentals</div><div class="course-provider">Coursera</div></div></div>
-    </div>
-  </div>
-</section>
-
-<!-- CONTACT -->
-<section id="contact">
-  <div class="container">
-    <div class="section-header reveal">
-      <p class="section-label">Let's Talk</p>
-      <h2 class="section-title">Get In <span>Touch</span></h2>
-      <p class="section-desc">Have a project in mind or need IT support? I'd love to hear from you.</p>
-    </div>
-    <div class="contact-grid">
-      <div class="contact-info reveal">
-        <div class="contact-item"><span class="c-icon">📧</span><div><div class="c-label">Email</div><div class="c-val"><a href="mailto:okenneth009@gmail.com">okenneth009@gmail.com</a></div></div></div>
-        <div class="contact-item"><span class="c-icon">📞</span><div><div class="c-label">Phone</div><div class="c-val">+234 803 308 8179</div></div></div>
-        <div class="contact-item"><span class="c-icon">📍</span><div><div class="c-label">Location</div><div class="c-val">Kosofe, Lagos, Nigeria</div></div></div>
-        <div class="contact-item"><span class="c-icon">🌐</span><div><div class="c-label">Website</div><div class="c-val"><a href="https://kennethobok.onrender.com" target="_blank">kennethobok.onrender.com</a></div></div></div>
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">What I Do</p>
+        <h2 class="section-title">Skills & <span>Expertise</span></h2>
+        <p class="section-desc">
+          A blend of technical depth and people skills enabling end-to-end
+          delivery of digital solutions.
+        </p>
       </div>
-      <div class="contact-form reveal">
-        <div class="form-group"><label>Your Name</label><input type="text" id="f-name" placeholder="John Doe"/></div>
-        <div class="form-group"><label>Email Address</label><input type="email" id="f-email" placeholder="john@example.com"/></div>
-        <div class="form-group"><label>Message</label><textarea id="f-msg" placeholder="Tell me about your project..."></textarea></div>
-        <button class="btn btn-primary" style="width:100%;border:none;" onclick="sendMsg()" disabled>Send Message</button>
-        <p id="form-msg"></p>
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <div class="skill-icon">💻</div>
+          <div class="skill-name">Full-Stack Development</div>
+          <div class="skill-desc">
+            End-to-end web and mobile apps using React.js, Next.js, Django,
+            Flutter, and Node.js. From pixel-perfect UIs to robust REST APIs.
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon">🔧</div>
+          <div class="skill-name">IT Support & Infrastructure</div>
+          <div class="skill-desc">
+            Hardware, software, and network diagnostics: supporting 100+ user
+            workforces with sub-2-hour resolution times for critical tickets.
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon">☁️</div>
+          <div class="skill-name">Cloud & DevOps</div>
+          <div class="skill-desc">
+            Scalable cloud deployments using AWS and GCP, containerisation
+            with Docker, and CI/CD pipelines via GitHub Actions.
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon">🏗️</div>
+          <div class="skill-name">System Architecture</div>
+          <div class="skill-desc">
+            Designing robust, scalable architectures with PostgreSQL and MySQL
+            backends, aligned with real-world business requirements.
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon">🎨</div>
+          <div class="skill-name">UI/UX & Design Thinking</div>
+          <div class="skill-desc">
+            Translating requirements into intuitive, accessible user
+            experiences; from wireframes and prototypes to production
+            interfaces.
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon">📊</div>
+          <div class="skill-name">Agile Project Management</div>
+          <div class="skill-desc">
+            Remote collaboration and on-schedule delivery using Agile/Scrum
+            workflows, stakeholder communication, and technical documentation.
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- FOOTER -->
-<footer>
-  <p>Designed & Built by <span>Obok Kenneth</span> · IT Support & Software Developer · Lagos, Nigeria</p>
-</footer>
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">What I've Built</p>
+        <h2 class="section-title">Featured <span>Projects</span></h2>
+        <p class="section-desc">
+          A selection of real-world projects showcasing my stack. Full list
+          available on my portfolio website.
+        </p>
+      </div>
+      <div class="projects-grid">
+        <div class="proj-card reveal">
+          <div class="proj-thumb p1">🛒</div>
+          <div class="proj-body">
+            <div class="proj-title">E-Commerce Platform</div>
+            <div class="proj-desc">
+              Full-stack online store with product listings, cart management,
+              user authentication, and Stripe payment integration.
+            </div>
+            <div class="proj-tags">
+              <span class="proj-tag">React.js</span><span class="proj-tag">Node.js</span><span
+                class="proj-tag">PostgreSQL</span><span class="proj-tag">Stripe</span>
+            </div>
+            <div class="proj-links">
+              <a href="https://kennethobok.onrender.com" target="_blank" class="proj-link live">↗ Live Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<script>
-  // NAV TOGGLE
-  function toggleNav(){
-    document.getElementById('navLinks').classList.toggle('open');
-  }
-  // Close nav on link click
-  document.querySelectorAll('.nav-links a').forEach(a=>a.addEventListener('click',()=>document.getElementById('navLinks').classList.remove('open')));
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Career Journey</p>
+        <h2 class="section-title">Work <span>Experience</span></h2>
+        <p class="section-desc">
+          Over seven years of impact across IT support and full-stack
+          development with measurable results at every step.
+        </p>
+      </div>
+      <div class="timeline">
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <div class="tl-header">
+              <div>
+                <div class="tl-role">
+                  IT Support & Software Developer (Freelance)
+                </div>
+                <div class="tl-company">Self-Employed · Remote</div>
+              </div>
+              <div class="tl-date">2025 – Present</div>
+            </div>
+            <ul class="tl-list">
+              <li>
+                Deliver full-stack web and mobile application development for
+                <strong>5+ active clients</strong> across different
+                industries.
+              </li>
+              <li>
+                Reduced average client system downtime by
+                <strong>~30%</strong> through proactive hardware, software,
+                and network troubleshooting.
+              </li>
+              <li>
+                Perform end-to-end system setup, cloud configuration, and
+                ongoing user support for small businesses.
+              </li>
+              <li>
+                Consistently deliver projects on time and within budget,
+                maintaining a <strong>100% client retention rate</strong>.
+              </li>
+            </ul>
+          </div>
+        </div>
 
-  // SCROLL REVEAL
-  const observer = new IntersectionObserver(entries=>{
-    entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');}});
-  },{threshold:.1});
-  document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <div class="tl-header">
+              <div>
+                <div class="tl-role">
+                  Software Developer & Virtual Assistant
+                </div>
+                <div class="tl-company">Awaays · Remote</div>
+              </div>
+              <div class="tl-date">2023 – 2025</div>
+            </div>
+            <ul class="tl-list">
+              <li>
+                Developed and maintained
+                <strong>3+ web and mobile application products</strong> used
+                by hundreds of end users.
+              </li>
+              <li>
+                Streamlined internal digital workflows, improving team
+                productivity by an estimated <strong>25%</strong>.
+              </li>
+              <li>
+                Provided technical support and administrative coordination to
+                a distributed remote team.
+              </li>
+              <li>
+                Collaborated cross-functionally using Agile methodology to
+                deliver features on schedule.
+              </li>
+            </ul>
+          </div>
+        </div>
 
-  // FORM MOCK SUBMIT
-  function sendMsg(){
-    const n=document.getElementById('f-name').value.trim();
-    const e=document.getElementById('f-email').value.trim();
-    const m=document.getElementById('f-msg').value.trim();
-    const msg=document.getElementById('form-msg');
-    if(!n||!e||!m){msg.style.display='block';msg.style.color='#ff6b6b';msg.textContent='Please fill in all fields.';return;}
-    msg.style.display='block';msg.style.color='#00d4ff';
-    msg.textContent='✅ Message sent! I\'ll will get back to you shortly.';
-    document.getElementById('f-name').value='';
-    document.getElementById('f-email').value='';
-    document.getElementById('f-msg').value='';
-  }
-</script>
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <div class="tl-header">
+              <div>
+                <div class="tl-role">Software Developer</div>
+                <div class="tl-company">Skilits · Lagos, Nigeria</div>
+              </div>
+              <div class="tl-date">2021 – 2023</div>
+            </div>
+            <ul class="tl-list">
+              <li>
+                Designed and developed responsive web applications using
+                modern JavaScript frameworks.
+              </li>
+              <li>
+                Implemented intuitive UI components and RESTful backend APIs,
+                reducing page load time by <strong>~20%</strong>.
+              </li>
+              <li>
+                Collaborated directly with stakeholders to translate
+                requirements into functional product features.
+              </li>
+              <li>
+                Maintained code quality through regular testing, debugging,
+                and peer code reviews.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <div class="tl-header">
+              <div>
+                <div class="tl-role">IT Support Specialist</div>
+                <div class="tl-company">
+                  China Civil Engineering Construction Company (CCEC) · Lagos
+                </div>
+              </div>
+              <div class="tl-date">2018 – 2020</div>
+            </div>
+            <ul class="tl-list">
+              <li>
+                Provided technical support to a workforce of
+                <strong>100+ staff</strong>, covering hardware, software, and
+                network infrastructure.
+              </li>
+              <li>
+                Installed, configured, and maintained computer systems and
+                network equipment across multiple site locations.
+              </li>
+              <li>
+                Achieved an average issue resolution time of
+                <strong>under 2 hours</strong> for critical support tickets.
+              </li>
+              <li>
+                Delivered user training sessions that reduced repeat support
+                requests by <strong>~40%</strong>.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Academic Background</p>
+        <h2 class="section-title">Education & <span>Courses</span></h2>
+        <p class="section-desc">
+          Formal education combined with continuous professional development
+          through industry-recognised certifications.
+        </p>
+      </div>
+      <div class="edu-grid reveal" style="margin-bottom: 2.5rem">
+        <div class="edu-card">
+          <div class="edu-icon">🎓</div>
+          <div>
+            <div class="edu-degree">OND – Urban & Regional Planning</div>
+            <div class="edu-school">Lagos State Polytechnic</div>
+            <div class="edu-year">2014 – 2016</div>
+          </div>
+        </div>
+        <div class="edu-card">
+          <div class="edu-icon">🏫</div>
+          <div>
+            <div class="edu-degree">WAEC</div>
+            <div class="edu-school">Mary Knoll College</div>
+            <div class="edu-year">2006 – 2012</div>
+          </div>
+        </div>
+      </div>
+      <div class="courses-grid">
+        <div class="course-card reveal">
+          <div class="course-icon">🛠️</div>
+          <div>
+            <div class="course-name">Google IT Support Professional</div>
+            <div class="course-provider">Coursera · Google · 2023</div>
+          </div>
+        </div>
+        <div class="course-card reveal">
+          <div class="course-icon">☁️</div>
+          <div>
+            <div class="course-name">Cloud Computing Fundamentals</div>
+            <div class="course-provider">Coursera · 2023</div>
+          </div>
+        </div>
+        <div class="course-card reveal">
+          <div class="course-icon">🌐</div>
+          <div>
+            <div class="course-name">Web Development Bootcamp</div>
+            <div class="course-provider">Udemy · 2021</div>
+          </div>
+        </div>
+        <div class="course-card reveal">
+          <div class="course-icon">💡</div>
+          <div>
+            <div class="course-name">Software Development</div>
+            <div class="course-provider">Udemy · 2021</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Let's Talk</p>
+        <h2 class="section-title">Get In <span>Touch</span></h2>
+        <p class="section-desc">
+          Have a project in mind or need IT support? I'd love to hear from
+          you.
+        </p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <div class="contact-item">
+            <span class="c-icon">📧</span>
+            <div>
+              <div class="c-label">Email</div>
+              <div class="c-val">
+                <a href="mailto:okenneth009@gmail.com">okenneth009@gmail.com</a>
+              </div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="c-icon">📞</span>
+            <div>
+              <div class="c-label">Phone</div>
+              <div class="c-val">+234 803 308 8179</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="c-icon">📍</span>
+            <div>
+              <div class="c-label">Location</div>
+              <div class="c-val">Lagos, Nigeria (Open to Remote)</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="c-icon">🌐</span>
+            <div>
+              <div class="c-label">Website</div>
+              <div class="c-val">
+                <a href="https://kennethobok.onrender.com" target="_blank">kennethobok.onrender.com</a>
+              </div>
+            </div>
+          </div>
+          <div class="cv-download-wrap" style="margin-top: 0.5rem; padding-top: 1rem">
+            <a href="#" class="cv-download-btn" onclick="downloadCV(event)">⬇ Download CV (PDF)</a>
+          </div>
+        </div>
+        <div class="contact-form reveal">
+          <div class="form-group">
+            <label>Your Name</label><input type="text" id="f-name" placeholder="John Doe" />
+          </div>
+          <div class="form-group">
+            <label>Email Address</label><input type="email" id="f-email" placeholder="john@example.com" />
+          </div>
+          <div class="form-group">
+            <label>Subject</label><input type="text" id="f-subject" placeholder="Project Enquiry / IT Support" />
+          </div>
+          <div class="form-group">
+            <label>Message</label><textarea id="f-msg"
+              placeholder="Tell me about your project or how I can help..."></textarea>
+          </div>
+          <button class="submit-btn" onclick="sendMsg()">
+            Send Message →
+          </button>
+          <p id="form-msg"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>
+      Designed &amp; Built by <span>Obok Kenneth</span> · Full-Stack Developer
+      · Lagos, Nigeria · © <span id="yr"></span>
+    </p>
+    <div class="footer-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="back-top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
+      ↑
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("yr").textContent = new Date().getFullYear();
+
+    function toggleNav() {
+      document.getElementById("navLinks").classList.toggle("open");
+    }
+    document
+      .querySelectorAll(".nav-links a")
+      .forEach((a) =>
+        a.addEventListener("click", () =>
+          document.getElementById("navLinks").classList.remove("open"),
+        ),
+      );
+
+    const obs = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) e.target.classList.add("visible");
+        });
+      },
+      { threshold: 0.1 },
+    );
+    document.querySelectorAll(".reveal").forEach((el) => obs.observe(el));
+
+    document
+      .querySelectorAll(
+        ".skills-grid .reveal,.projects-grid .reveal,.courses-grid .reveal",
+      )
+      .forEach((el, i) => {
+        el.style.transitionDelay = `${(i % 3) * 0.1}s`;
+      });
+
+    function sendMsg() {
+      const n = document.getElementById("f-name").value.trim();
+      const e = document.getElementById("f-email").value.trim();
+      const m = document.getElementById("f-msg").value.trim();
+      const msg = document.getElementById("form-msg");
+      msg.className = "";
+      if (!n || !e || !m) {
+        msg.className = "err";
+        msg.textContent = "⚠ Please fill in all required fields.";
+        return;
+      }
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e)) {
+        msg.className = "err";
+        msg.textContent = "⚠ Please enter a valid email address.";
+        return;
+      }
+      msg.className = "ok";
+      msg.textContent = "✅ Message sent! I'll get back to you shortly.";
+      ["f-name", "f-email", "f-subject", "f-msg"].forEach(
+        (id) => (document.getElementById(id).value = ""),
+      );
+    }
+
+    // CV download — replace the href below with your actual hosted PDF URL
+    function downloadCV(e) {
+      e.preventDefault();
+      const cvUrl = "https://kennethobok.onrender.com/obok-kenneth.pdf"; // ← update this to your real PDF URL
+      const a = document.createElement("a");
+      a.href = cvUrl;
+      a.download = "Obok_Kenneth_CV.pdf";
+      a.target = "_blank";
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    }
+  </script>
 </body>
+
 </html>
