@@ -368,7 +368,7 @@ section {
 }
 
 /* ABOUT */
-#about, #projects, #education {
+#about, #experience, #contact {
   background: var(--surface);
 }
 
@@ -1035,7 +1035,7 @@ section {
 
 /* FOOTER */
 footer {
-  background: var(--surface);
+  /* background: var(--surface); */
   border-top: 1px solid var(--border);
   padding: 1.8rem 5%;
   display: flex;
