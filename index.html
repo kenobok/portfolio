@@ -575,6 +575,7 @@
         el.style.transitionDelay = `${(i % 3) * 0.1}s`;
       });
 
+    /*
     function sendMsg() {
       const n = document.getElementById("f-name").value.trim();
       const e = document.getElementById("f-email").value.trim();
@@ -597,14 +598,15 @@
         (id) => (document.getElementById(id).value = ""),
       );
     }
-
+    */
+    
     // CV download — replace the href below with your actual hosted PDF URL
     function downloadCV(e) {
       e.preventDefault();
-      const cvUrl = "https://kennethobok.onrender.com/obok-kenneth.pdf"; // ← update this to your real PDF URL
+      const cvUrl = "https://kennethobok.onrender.com/Obok-Kenneth_CV.pdf"; // ← update this to your real PDF URL
       const a = document.createElement("a");
       a.href = cvUrl;
-      a.download = "Obok_Kenneth_CV.pdf";
+      a.download = "Obok-Kenneth_CV.pdf";
       a.target = "_blank";
       document.body.appendChild(a);
       a.click();
